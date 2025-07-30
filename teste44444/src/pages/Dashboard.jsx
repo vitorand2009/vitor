@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Package, Coffee, Star, TrendingUp, History } from 'lucide-react'
 
-export default function Dashboard() {
+export default function Dashboard(){
   const [stats, setStats] = useState({
     totalCharutos: 0,
     totalDegustacoes: 0,
